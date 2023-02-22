@@ -13,7 +13,7 @@ class CheckOut:
 
     def last_name(self):
         l_name = self.driver.find_element(By.CSS_SELECTOR, 'input[id="last-name"]')
-        l_name.send_keys("abc")
+        l_name.send_keys("kandel")
 
 
 
