@@ -45,7 +45,7 @@ cart.go_to_cart()
 time.sleep(1)
 
 cart.checkout()
-time.sleep(5)
+time.sleep(4)
 
 cout = CheckOut(driver)
 cout.first_name()
