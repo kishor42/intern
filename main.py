@@ -8,6 +8,7 @@ from pages.yourcart import YourCart
 from pages.checkout import CheckOut
 from pages.checkoutdescription import CheckOutDescription
 from pages.complete import Complete
+from pages.logout import Logout
 
 import time
 
@@ -55,9 +56,13 @@ time.sleep(3)
 
 cod = CheckOutDescription(driver)
 cod.cod_finish()
-time.sleep(5)
+time.sleep(2)
 
 comp = Complete(driver)
 comp.backhome()
-time.sleep(5)
+time.sleep(2)
 
+log = Logout(driver)
+log.click_menu()
+log.click_menu()
+time.sleep(5)
